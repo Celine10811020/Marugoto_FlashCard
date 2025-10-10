@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>まるごと 單字閃卡</title>
+
+  <!-- 讀取 Excel -->
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <h1>まるごと 單字閃卡</h1>
+    </header>
+
+    <div class="row">
+      <!-- 新增：Level 選擇（A1/A2） -->
+      <select id="level">
+        <option value="A1K">入門 A1 かつどう</option>
+        <option value="A1R">入門 A1 りかい</option>
+        <option value="E1A2K">初級1 A2 かつどう</option>
+        <option value="E1A2R">初級1 A2 りかい</option>
+        <option value="E2A2K" selected>初級2 A2 かつどう</option>
+        <option value="E2A2R">初級2 A2 りかい</option>
+        <option value="A2B1">初中級 A2/B1</option>
+      </select>
+
+      <select id="lesson" disabled></select>
+      <div class="meta">
+        <span id="count" class="badge">— / —</span>
+        <span id="known" class="badge">已記住：0</span>
+      </div>
+    </div>
+
+    <div id="cardWrap" class="card-wrap hidden">
+      <div id="card" class="card" aria-live="polite">
+        <div class="inner">
+          <div class="face front">
+            <div class="sub" id="frontLabel">日文假名（正面）</div>
+            <div id="front" class="jp">—</div>
+          </div>
+          <div class="face back">
+            <div class="sub" id="backLabel">—</div>
+            <div id="back" class="jp"></div>
+          </div>
+        </div>
+      </div>
+      <div class="controls">
+        <div class="meta" id="status"></div>
+        <div class="btns">
+          <button id="btnRemember" class="btn-remember">已記住</button>
+          <button id="btnNext" class="btn-next">下一張</button>
+        </div>
+      </div>
+      <div class="footer-hint">提示：點卡片左半邊翻「漢字」，右半邊翻「中文」。背面再點一下可回正面。</div>
+    </div>
+
+    <div id="empty" class="empty">正在嘗試自動載入頁面</div>
+  </div>
+</body>
+
+<script src="main.js"></script>
+
+</html>
