@@ -148,13 +148,13 @@ function populateLessonOptions(){
 
 // === 載入某個 Level 的 Excel ===
 const LEVEL_FILES = {
-  A1K: 'Marugoto_A1_Katsudou_Vocab.xlsx',
-  A1R: 'Marugoto_A1_Rikai_Vocab.xlsx',
-  E1A2K: 'Marugoto_E1A2_Katsudou_Vocab.xlsx',
-  E1A2R: 'Marugoto_E1A2_Rikai_Vocab.xlsx',
-  E2A2K: 'Marugoto_E2A2_Katsudou_Vocab.xlsx',
-  E2A2R: 'Marugoto_E2A2_Rikai_Vocab.xlsx',
-  A2B1: 'Marugoto_A2B1_Vocab.xlsx',
+  A1K: './Data/Marugoto_A1_Katsudou_Vocab.xlsx',
+  A1R: './Data/Marugoto_A1_Rikai_Vocab.xlsx',
+  E1A2K: './Data/Marugoto_E1A2_Katsudou_Vocab.xlsx',
+  E1A2R: './Data/Marugoto_E1A2_Rikai_Vocab.xlsx',
+  E2A2K: './Data/Marugoto_E2A2_Katsudou_Vocab.xlsx',
+  E2A2R: './Data/Marugoto_E2A2_Rikai_Vocab.xlsx',
+  A2B1: './Data/Marugoto_A2B1_Vocab.xlsx',
 };
 
 async function loadLevel(level){
