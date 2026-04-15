@@ -10,15 +10,14 @@ Built with **HTML, CSS, and JavaScript**, this project provides a lesson-based f
 
 ## About the Project
 
-Marugoto FlashCard is a lightweight web app for reviewing vocabulary from the **Marugoto** Japanese textbook series.
+Marugoto FlashCard is a lightweight web app for reviewing vocabulary from the [**Marugoto** Japanese textbook](https://marugoto.jpf.go.jp/en/) series.
 
 The app organizes vocabulary by course and lesson, allowing users to practice one card at a time in a simple browser-based interface.
 
-Unlike a kanji-only flashcard app, this project focuses on **Japanese vocabulary learning**, with each card supporting:
+This project focuses on **Japanese vocabulary learning**, with each card supporting:
 
 - Japanese reading on the front
-- Kanji on one side of the back
-- Chinese meaning on the other side of the back
+- Kanji or Chinese meaning on the back
 
 ## Supported Levels / Books
 
@@ -55,21 +54,8 @@ The project currently includes vocabulary sets from:
 
 ```text
 Marugoto_FlashCard/
-├── index.html
-├── main.js
-├── style.css
-├── Marugoto_A1_Katsudou_Vocab.xlsx
-├── Marugoto_A1_Rikai_Vocab.xlsx
-├── Marugoto_E1A2_Katsudou_Vocab.xlsx
-├── Marugoto_E1A2_Rikai_Vocab.xlsx
-├── Marugoto_E2A2_Katsudou_Vocab.xlsx
-├── Marugoto_E2A2_Rikai_Vocab.xlsx
-├── Marugoto_A2B1_Vocab.xlsx
-├── Marugoto_A1_Katsudou_Vocab.pdf
-├── Marugoto_A1_Rikai_Vocab.pdf
-├── Marugoto_E1A2_Katsudou_Vocab.pdf
-├── Marugoto_E1A2_Rikai_Vocab.pdf
-├── Marugoto_E2A2_Katsudou_Vocab.pdf
-├── Marugoto_E2A2_Rikai_Vocab.pdf
-├── Marugoto_A2B1_Vocab.pdf
-└── HTTP server.txt
+├── Data/               # Data files
+├── index.html          # Main page
+├── main.js             # Flashcard logic and data loading
+├── style.css           # UI styling
+└── HTTP server.txt     # Notes for local server setup
