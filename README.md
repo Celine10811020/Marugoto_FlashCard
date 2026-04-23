@@ -1,6 +1,6 @@
-# Marugoto FlashCard｜まるごと 單字閃卡（日→中）
+# Japanese FlashCard｜日文單字閃卡（日→中）
 
-A browser-based vocabulary flashcard app for **Marugoto Japanese learning materials**, designed for **Japanese-to-Chinese** study.
+A browser-based vocabulary flashcard app for **Marugoto Japanese learning materials** and **留学生の日本語**, designed for **Japanese-to-Chinese** study.
 
 Built with **HTML, CSS, and JavaScript**, this project provides a lesson-based flashcard interface for reviewing Japanese vocabulary from different Marugoto course books.
 
@@ -10,7 +10,7 @@ Built with **HTML, CSS, and JavaScript**, this project provides a lesson-based f
 
 ## About the Project
 
-Marugoto FlashCard is a lightweight web app for reviewing vocabulary from the [**Marugoto** Japanese textbook](https://marugoto.jpf.go.jp/en/) series.
+Marugoto FlashCard is a lightweight web app for reviewing vocabulary from the [**Marugoto** Japanese textbook](https://marugoto.jpf.go.jp/en/) series and [大学・大学院留学生の日本語1 読解編](https://amzn.asia/d/0e0dvhDe).
 
 The app organizes vocabulary by course and lesson, allowing users to practice one card at a time in a simple browser-based interface.
 
@@ -23,13 +23,14 @@ This project focuses on **Japanese vocabulary learning**, with each card support
 
 The project currently includes vocabulary sets from:
 
-- 入門 A1 かつどう
-- 入門 A1 りかい
-- 初級1 A2 かつどう
-- 初級1 A2 りかい
-- 初級2 A2 かつどう
-- 初級2 A2 りかい
-- 初中級 A2/B1
+- まるごと 入門 A1 かつどう
+- まるごと 入門 A1 りかい
+- まるごと 初級1 A2 かつどう
+- まるごと 初級1 A2 りかい
+- まるごと 初級2 A2 かつどう
+- まるごと 初級2 A2 りかい
+- まるごと 初中級 A2/B1
+- 大学・大学院留学生の日本語1 読解編
 
 ## Features
 

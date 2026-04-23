@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>まるごと 單字閃卡</title>
+  <title>日文單字閃卡</title>
 
   <!-- 讀取 Excel -->
   <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
@@ -16,19 +16,20 @@
 <body>
   <div class="app">
     <header>
-      <h1>まるごと 單字閃卡（日→中）</h1>
+      <h1>單字閃卡（日→中）</h1>
     </header>
 
     <div class="row">
       <!-- 新增：Level 選擇（A1/A2） -->
       <select id="level">
-        <option value="A1K">入門 A1 かつどう</option>
-        <option value="A1R">入門 A1 りかい</option>
-        <option value="E1A2K">初級1 A2 かつどう</option>
-        <option value="E1A2R">初級1 A2 りかい</option>
-        <option value="E2A2K" selected>初級2 A2 かつどう</option>
-        <option value="E2A2R">初級2 A2 りかい</option>
-        <option value="A2B1">初中級 A2/B1</option>
+        <option value="A1K">まるごと 入門 A1 かつどう</option>
+        <option value="A1R">まるごと 入門 A1 りかい</option>
+        <option value="E1A2K">まるごと 初級1 A2 かつどう</option>
+        <option value="E1A2R">まるごと 初級1 A2 りかい</option>
+        <option value="E2A2K">まるごと 初級2 A2 かつどう</option>
+        <option value="E2A2R">まるごと 初級2 A2 りかい</option>
+        <option value="A2B1">まるごと 初中級 A2/B1</option>
+        <option value="Reading" selected>大学・大学院 留学生の日本語1 読解編</option>
       </select>
 
       <select id="lesson" disabled></select>
